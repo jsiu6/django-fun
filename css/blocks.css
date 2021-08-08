@@ -1,0 +1,65 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+
+#one {
+  color: black;
+  border: 5px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 5px;
+  width: 25%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#two {
+  color: black;
+  border: 5px;
+  border-style: solid;
+  border-color: green;
+  border-width: 5px;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#three {
+  color: black;
+  border: 5px;
+  border-style: solid;
+  border-color: orange;
+  border-width: 5px;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#four {
+  color: black;
+  border: 5px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 5px;
+  width: 25%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+a {
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  color: #00a;
+  text-decoration-line: none;
+}
+
+a:hover{
+  color: #0d6efd;
+}
