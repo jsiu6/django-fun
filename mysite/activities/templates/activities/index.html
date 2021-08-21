@@ -1,0 +1,9 @@
+{% if latest_activity_list %}
+    <ul>
+    {% for activity in latest_activity_list %}
+        <li><a href="{% url 'activities:detail' activity.id %}">{{ activity.activity_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No activities are available.</p>
+{% endif %}
